@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_header"
+        android:background="#FFCCCB"
+        android:textColor="#000"
+        android:padding="16dp"
+        android:layout_margin="0dp"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name"
+        android:minHeight="40dp"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPersonName"
+        android:autofillHints="name"/>
+
+    <EditText
+        android:id="@+id/inputPhone"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_phone"
+        android:minHeight="40dp"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="6dp"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_button_text"
+        android:background="#FFCCCB"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="16dp"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>

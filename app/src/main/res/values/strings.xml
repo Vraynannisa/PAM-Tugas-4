@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tugas4</string>
+    <string name="text_header">Contact</string>
+    <string name="add_button_text">Tambah</string>
+    <string name="hint_name">Masukkan Nama</string>
+    <string name="hint_phone">Nomor</string>
+    <string name="item_display"> %1$d. %2$s</string>
+    <string name="phone_display"> %1$s</string>
+</resources>
